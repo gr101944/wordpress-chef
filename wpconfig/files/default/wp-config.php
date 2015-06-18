@@ -16,8 +16,8 @@
 
 //define('WP_REDIS_HOST', '');
  
-define('WP_HOME','http://ec2-52-6-132-81.compute-1.amazonaws.com/fastsite');
-define('WP_SITEURL','http://ec2-52-6-132-81.compute-1.amazonaws.com/fastsite');
+define('WP_HOME','http://Loadbalancer-ecommerce-1016097106.us-east-1.elb.amazonaws.com/fastsite');
+define('WP_SITEURL','http://Loadbalancer-ecommerce-1016097106.us-east-1.elb.amazonaws.com/fastsite');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
