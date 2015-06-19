@@ -14,14 +14,14 @@
  * @package WordPress
  */
 
-//define('WP_REDIS_HOST', '');
+define('WP_REDIS_HOST', 'ecomm-ubuntu.5q4k9f.0001.use1.cache.amazonaws.com');
  
 define('WP_HOME','http://Loadbalancer-ecommerce-1016097106.us-east-1.elb.amazonaws.com/fastsite');
 define('WP_SITEURL','http://Loadbalancer-ecommerce-1016097106.us-east-1.elb.amazonaws.com/fastsite');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'fastsite');
+define('DB_NAME', 'newsite');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -30,7 +30,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'guitar123');
 
 /** MySQL hostname */
-define('DB_HOST', 'fastsite.cqqihavuvnns.us-east-1.rds.amazonaws.com:3306');
+define('DB_HOST', 'newsite.cqqihavuvnns.us-east-1.rds.amazonaws.com:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
